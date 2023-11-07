@@ -1,0 +1,36 @@
+<div class="container">
+    <h3>{{pageTitle}}</h3>
+    <div class="row">
+      <h6 *ngIf="productosSeleccionados.length > 0 ">Cantidad de productos: {{productosSeleccionados.length}}</h6>
+        <div class="col">
+            <table class="table" *ngIf="productosSeleccionados.length > 0 ">
+                <thead>
+                  <tr>
+                    <th scope="col">Código</th>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Total</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let producto of productosSeleccionados">
+                    <th scope="row">{{producto.productId}}</th>
+                    <td>{{producto.productName}}</td>
+                    <td>${{producto.price}}</td>
+                    <td><input [(ngModel)]="producto.cantidad" (ngModelChange)="actualizarCantidad()" type="text" name="cantidad" id="cantidad" [value]="producto.cantidad" style="width: 40px;"></td>
+                    <td>{{producto.price* producto.cantidad}}</td>
+                    <td><a (click)="quitarProducto(producto)"><i class="fa-solid fa-trash fa-bounce" style="color: #cd0e0e;"></i></a></td>
+            
+                    </tr>
+                </tbody>
+                <h4>Total : ${{sumatoriaTotal}}</h4>
+              </table>
+
+              <div *ngIf="productosSeleccionados.length == 0">
+                  <h3>El carrito no tiene productos agregados.</h3>
+              </div>
+        </div>
+    </div>
+</div>

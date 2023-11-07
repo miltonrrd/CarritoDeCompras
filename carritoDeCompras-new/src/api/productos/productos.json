@@ -1,0 +1,66 @@
+[
+  {
+    "productId": 1,
+    "productName": "Gaseosa Coca-Cola 2.25L",
+    "productCode": "GDN-0011",
+    "releaseDate": "March 19, 2021",
+    "price": 850,
+    "imageUrl": "assets/imagenes/cocacola.jpg",
+    "cantidad": 1
+  },
+  {
+    "productId": 2,
+    "productName": "Yerba Mate Mañanita 1kg",
+    "productCode": "GDN-0023",
+    "releaseDate": "March 18, 2021",
+    "price": 980,
+    "imageUrl": "assets/imagenes/yerba.jpg",
+    "cantidad": 1
+  },
+  {
+    "productId": 5,
+    "productName": "Azúcar Ledesma 1kg",
+    "productCode": "TBX-0048",
+    "releaseDate": "May 21, 2021",
+    "price": 800,
+    "imageUrl": "assets/imagenes/azucar.jpg",
+    "cantidad": 1
+  },
+  {
+    "productId": 8,
+    "productName": "Aceite Cocinero 1L",
+    "productCode": "TBX-0022",
+    "releaseDate": "May 15, 2021",
+    "price": 1200,
+    "imageUrl": "assets/imagenes/aceite.jpg",
+    "cantidad": 1
+  },
+  {
+    "productId": 10,
+    "productName": "Arroz Molinos Ala 1kg",
+    "productCode": "GMG-0042",
+    "releaseDate": "October 15, 2020",
+    "price": 700,
+    "imageUrl": "assets/imagenes/arroz.jpg",
+    "cantidad": 1
+  },
+  {
+    "productId": 15,
+    "productName": "Fideos Luchetti Moños 1kg",
+    "productCode": "GMG-0042",
+    "releaseDate": "October 15, 2020",
+    "price": 750,
+    "imageUrl": "assets/imagenes/fideos.jpg",
+    "cantidad": 1
+  },
+  {
+    "productId": 20,
+    "productName": "Atún La Campag. 170g",
+    "productCode": "GMG-0042",
+    "releaseDate": "October 15, 2020",
+    "price": 860,
+    "imageUrl": "assets/imagenes/atun.jpg",
+    "cantidad": 1
+
+  }
+]
